@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt - br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora do Dia</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #33271e;
+            display: flex;
+            flex-direction: column;
+            color:white;
+        }
+
+        .quadro{
+            width: 50vw;
+            height: 50vh;
+            margin-top:20px;
+            margin-bottom:20px;
+            background-color: white;
+            border: 1.6px solid black;
+            color:black;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .quadro img{
+            width: 15vw;
+            height: 29vh;
+            border-radius: 50%;
+        }
+
+        .quadro h2 {
+            padding-bottom:15px;
+        }
+
+        .quadro h3 {
+            margin-top:25px;
+        }
+
+    </style>
+</head>
+<body>
+    <!--O projeto não esta reponsivo-->
+    
+    <main id="fundo">
+        <h1>Hora Atual</h1>
+
+        <div class="quadro">
+            <h2 id="hora-atual">Agora é são 9 horas</h2>
+            <img src="img/img1.jpg" alt="imagem do periodo do dia" id="imagem">
+        </div>
+
+         <h3>Anédson Diego</h3>
+    </main>
+    
+    <script src = "index.js">
+    </script>
+
+</body>
+</html>
